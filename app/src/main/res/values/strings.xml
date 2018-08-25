@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">College Notification</string>
+    <string name="Success">Success</string>
+    <string name="verifying">Verifying</string>
+
+    <string-array name="semester">
+        <item>--Select Semester--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="age_group">
+        <item>--Select--</item>
+        <item>10-20</item>
+        <item>21-30</item>
+        <item>31-40</item>
+        <item>41-50</item>
+        <item>51-60</item>
+        <item>61-70</item>
+    </string-array>
+    <string-array name="gender">
+        <item>--Select--</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="hand_specification">
+        <item>--Select--</item>
+        <item>Right hand</item>
+        <item>Left hand</item>
+    </string-array>
+
+    <string-array name="qualification">
+        <item>--Select--</item>
+        <item>LKG</item>
+        <item>UKG</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="familarity">
+        <item>--Select--</item>
+        <item>Familar</item>
+        <item>Not Familar</item>
+    </string-array>
+
+    <string-array name="alphabet">
+        <item>--Select--</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>

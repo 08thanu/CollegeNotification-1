@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7986CB"
+    android:orientation="vertical"
+    tools:context="com.example.admin.collegenoti.activities.PrincipalActivity">
+
+    <include layout="@layout/toolbar" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="#ff6400"
+        android:onClick="onLogout"
+        android:layout_gravity="right"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="HOLOIDAY ANNOUNCEMENT"
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_holiday"
+        android:layout_width="340dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="#F0F0F0"
+        android:src="@android:drawable/ic_menu_camera" />
+
+
+    <Button
+        android:id="@+id/btn_Submit"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="SUBMIT  "
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view_uploadsp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:scrollbars="vertical" />
+</LinearLayout>
+
+
+

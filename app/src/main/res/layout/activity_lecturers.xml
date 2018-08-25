@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7986CB"
+    android:orientation="vertical"
+    tools:context="com.example.admin.collegenoti.activities.LecturersActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:background="#ff6400"
+        android:onClick="onLogout"
+        android:text="Logout"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/upl"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="-35dp"
+        android:background="#ff6400"
+        android:text="check uploads"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Select Sem"
+            android:textAlignment="gravity"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_semister"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Select Sem"
+            android:textAlignment="gravity"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="UPLOAD IA MARKS"
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_ia_marks"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#F0F0F0"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/btn_ia"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Click to Upload"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="UPLOAD ATTENDANCE  "
+        android:textColor="#2196F3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_attendence"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="#F0F0F0"
+        android:src="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/btn_attendance"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Click to Upload"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

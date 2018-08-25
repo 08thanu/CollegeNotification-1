@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7986CB"
+    android:orientation="vertical"
+    tools:context="com.example.admin.collegenoti.activities.AdminActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Select Sem"
+            android:textAlignment="gravity"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/sp_semister"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Select Sem"
+            android:textAlignment="gravity"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="TIME TABLE"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="FEES"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="EVENTS"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="PICTURES"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="SHORTAGE OF ATTENDENCE"
+        android:textColor="#2196F3"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="SUBMIT  "
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

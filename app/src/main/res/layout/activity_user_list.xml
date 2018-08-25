@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.collegenoti.activities.UserListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_lecturer"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="LECTURERS"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:pb_colorNormal="#006400" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_principal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="PRINCIPAL"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:pb_colorNormal="#455676" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_admin"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="ADMIN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:pb_colorNormal="#FF0000" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_students"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="STUDENTS"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/btn_parents"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:text="PARENTS"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:pb_colorNormal="#FF00FF" />
+    </LinearLayout>
+
+</ScrollView>

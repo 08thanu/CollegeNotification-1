@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7986CB"
+    tools:context="com.example.admin.collegenoti.activities.AdminHomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/sp_semister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:entries="@array/semester" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time Table"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img_time_table"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:src="@android:drawable/ic_menu_camera" />
+        <Button
+            android:id="@+id/btn_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Click to Upload"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fee"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img_fee"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <Button
+            android:id="@+id/btn_fee"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Click to Upload"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Events"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img_events"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:src="@android:drawable/ic_menu_camera" />
+        <Button
+            android:id="@+id/btn_events"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Click to Upload"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pictures"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img_pictures"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <Button
+            android:id="@+id/btn_pictures"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Click to Upload"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shortage of Attendance"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img_shortage_of_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F0F0F0"
+            android:src="@android:drawable/ic_menu_camera" />
+
+
+        <Button
+            android:id="@+id/btn_shortage_of_attandance"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Click to Upload"
+            android:layout_marginBottom="20dp"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/card_recycler_view_uploads"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:scrollbars="vertical" />
+
+
+    </LinearLayout>
+</ScrollView>
